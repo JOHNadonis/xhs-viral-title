@@ -1,0 +1,28 @@
+# 忽略
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时产物
+*.log
+*.tmp
+_*.json
+.tmp_*
+*_filled.json
+
+# 保留结构库原始数据
+!assets/*.xlsx
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 环境
+.venv/
+venv/
+env/
+node_modules/

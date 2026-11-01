@@ -1,0 +1,2182 @@
+{
+ "source": "爆款标题排行榜1026终版.xlsx",
+ "total_structures": 116,
+ "fit_legend": {
+  "F": "服饰",
+  "U": "美妆个护",
+  "H": "家居百货",
+  "G": "食品饮品",
+  "D": "数码",
+  "E": "母婴",
+  "K": "知识课程",
+  "*": "通用"
+ },
+ "tone_legend": {
+  "price": "价格冲击",
+  "hype": "夸张赞叹",
+  "story": "故事自述",
+  "pain": "痛点共情",
+  "soft": "温柔治愈",
+  "social": "社交背书"
+ },
+ "structures": [
+  {
+   "rank": 1,
+   "structure": "（[寻找/期待经历]）终于[找到/买到][符合需求的对象]",
+   "examples": [
+    "退了三次货，终于找到不塌的收纳盒！",
+    "终于找到把中外历史串起来的书",
+    "啊啊啊终于买到我的秋冬百搭战裙了！！！！😎"
+   ],
+   "similar_count": 125,
+   "category_count": 14,
+   "author_count": 121,
+   "likes_median": 469,
+   "slots": [
+    "寻找经历",
+    "对象"
+   ],
+   "fit": "FUHGDE",
+   "tone": "story"
+  },
+  {
+   "rank": 2,
+   "structure": "（个人认为/目前为止）[范围]最[评价]的[对象]（没有之一）",
+   "examples": [
+    "最爱的款式没有之一！",
+    "个人认为目前zui有效的口语暴涨法（干货版",
+    "目前买到最满意的围巾和帽子。。。没有之一！！！"
+   ],
+   "similar_count": 80,
+   "category_count": 16,
+   "author_count": 71,
+   "likes_median": 650,
+   "slots": [
+    "范围",
+    "评价",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 3,
+   "structure": "（[对象]）我愿称之为[强烈评价/定位]",
+   "examples": [
+    "我愿称它为线稿之神！！✨",
+    "我愿称之为暴走最舒服的鞋子！！！☁️",
+    "我愿称之为刷题笔界的神来的"
+   ],
+   "similar_count": 63,
+   "category_count": 15,
+   "author_count": 60,
+   "likes_median": 647,
+   "slots": [
+    "对象",
+    "评价"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 4,
+   "structure": "[同一价格/卖点]！[同一价格/卖点]！[同一价格/卖点]！（[强调/补充]）",
+   "examples": [
+    "6r一箱！6r一箱！6r一箱！重要事情说三遍！",
+    "8r一箱！8r一箱！8r一箱！必须大声说三遍",
+    "6r一箱！6r一箱！6r一箱！补钾巨猛👊"
+   ],
+   "similar_count": 62,
+   "category_count": 16,
+   "author_count": 53,
+   "likes_median": 444,
+   "slots": [
+    "卖点",
+    "强调"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 5,
+   "structure": "唯一的缺点：[反向优点/限制/遗憾]",
+   "examples": [
+    "唯一的缺点：就是89r送喷头可复美不多了❗️😫",
+    "唯一的缺点：日本限定限量。。。",
+    "☕👋上新啦！唯一缺点，只在小红书！"
+   ],
+   "similar_count": 56,
+   "category_count": 12,
+   "author_count": 54,
+   "likes_median": 467.5,
+   "slots": [
+    "反向优点"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 6,
+   "structure": "同行[继续抄/别再抄]，我[又升级/已next level]（[新版本]）",
+   "examples": [
+    "同行还在抄？姐已经nextlevel 0.5肩带了……",
+    "同行你就抄吧✋……我已经Next Level了！",
+    "同行随便抄吧😑姐又升级了，而且才 50➕❗"
+   ],
+   "similar_count": 55,
+   "category_count": 14,
+   "author_count": 45,
+   "likes_median": 509,
+   "slots": [
+    "新版本"
+   ],
+   "fit": "FUD",
+   "tone": "hype"
+  },
+  {
+   "rank": 7,
+   "structure": "[具体场景/痛点]，终于/再也不[用/怕/愁][麻烦动作/问题]",
+   "examples": [
+    "今日实况❗️夏天再也不怕穿单鞋磨脚跟了……",
+    "iPhone17Pro保命壳！再也不怕掉漆刮镜头🫡",
+    "9r一箱！包邮！大学生再也不用被水果店背刺啦"
+   ],
+   "similar_count": 55,
+   "category_count": 13,
+   "author_count": 54,
+   "likes_median": 317,
+   "slots": [
+    "痛点场景",
+    "问题"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 8,
+   "structure": "[善良/心软]（使我）定价[低价/规格]",
+   "examples": [
+    "心软使我定价9r💰。。。",
+    "善良使我定价7r💰！",
+    "善良使我定价10r一箱📦没想到一天就爆3000+"
+   ],
+   "similar_count": 52,
+   "category_count": 15,
+   "author_count": 48,
+   "likes_median": 639.5,
+   "slots": [
+    "价格",
+    "规格"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 9,
+   "structure": "（突然）对[产品/来源]起了敬意（[使用场景]）",
+   "examples": [
+    "对国货起了敬意。。。（腋下黑）",
+    "第一次对医用胶原起了敬意。。。（法令纹",
+    "突然对国货起了敬意。。（产后腋下黑）"
+   ],
+   "similar_count": 50,
+   "category_count": 12,
+   "author_count": 49,
+   "likes_median": 273,
+   "slots": [
+    "对象",
+    "场景"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 10,
+   "structure": "谁能拒绝[带特征的对象/体验]",
+   "examples": [
+    "治愈系捏捏🐭谁能拒绝小鼠饼团子！！",
+    "谁能拒绝一头粉发的少女",
+    "⌨️:超萌的别摇猫猫头(=ﾟωﾟ)ﾉ谁能拒绝小猫～"
+   ],
+   "similar_count": 48,
+   "category_count": 14,
+   "author_count": 47,
+   "likes_median": 430,
+   "slots": [
+    "特征对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 11,
+   "structure": "（[场景]）被[具体对象]拿捏/硬控住了",
+   "examples": [
+    "被老师的红笔硬控了一上午。。。",
+    "被这件毛衣硬控了～🍂",
+    "OOTD｜这个秋天被这件一字肩拿捏住了！"
+   ],
+   "similar_count": 46,
+   "category_count": 13,
+   "author_count": 45,
+   "likes_median": 455.5,
+   "slots": [
+    "场景",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 12,
+   "structure": "感谢[平台/大家]，（让我们）[爆单/售出数量]",
+   "examples": [
+    "感谢小红书让我们再次卖爆单了🙏🎆",
+    "谢谢大家支持😭餐具盲盒7天爆卖1w+",
+    "感谢小红书😭让我们爆单了。。。"
+   ],
+   "similar_count": 43,
+   "category_count": 12,
+   "author_count": 37,
+   "likes_median": 687,
+   "slots": [
+    "平台",
+    "数量"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 13,
+   "structure": "拆开/打开（[礼物]）后，瞬间不想/舍不得送人了",
+   "examples": [
+    "拆开瞬间不想送人了……",
+    "尊嘟！！拆开后突然不想送人了…😭😭",
+    "188💰而已…打开瞬间不想送了😭"
+   ],
+   "similar_count": 39,
+   "category_count": 14,
+   "author_count": 31,
+   "likes_median": 1927,
+   "slots": [
+    "礼物"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 14,
+   "structure": "（[具体对象]）越[用/穿/看]越[正面体验]",
+   "examples": [
+    "小鸡黄小蛮腰硅胶iwatch表带！越看越可爱！",
+    "长期主义｜越用越爱的百搭质感包",
+    "新中式休闲两件套｜真的越穿越喜欢"
+   ],
+   "similar_count": 38,
+   "category_count": 14,
+   "author_count": 36,
+   "likes_median": 415.5,
+   "slots": [
+    "对象",
+    "正面体验"
+   ],
+   "fit": "FUHGDE",
+   "tone": "soft"
+  },
+  {
+   "rank": 15,
+   "structure": "[具体对象]怎么选？[选择指引/结论]",
+   "examples": [
+    "四级资料怎么选?纠结党直接抄作业",
+    "纠结胶片机怎么选？这 4 款我都拍过📸",
+    "纠结胶片机怎么选？热门的4款都用过啦~"
+   ],
+   "similar_count": 38,
+   "category_count": 12,
+   "author_count": 38,
+   "likes_median": 354.5,
+   "slots": [
+    "对象",
+    "选择结论"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 16,
+   "structure": "[季节]的第一[量词][具体对象]（[体验]）",
+   "examples": [
+    "不得不说！我秋天的第一套粉咖太美了😍",
+    "秋天的第一件打底衫 温暖又舒适",
+    "春天第一件叠穿 温柔到发光！"
+   ],
+   "similar_count": 34,
+   "category_count": 11,
+   "author_count": 34,
+   "likes_median": 638.5,
+   "slots": [
+    "季节",
+    "量词",
+    "对象"
+   ],
+   "fit": "FU",
+   "tone": "soft"
+  },
+  {
+   "rank": 17,
+   "structure": "[穿/用][次数/时长]，就[被夸/惊叹的表现或时长]",
+   "examples": [
+    "穿一次！！被体制内领导夸三天！",
+    "穿一次Vocal一次！零下真的一点都不冷！超暖！",
+    "39r，穿了一上午、夸了三天😭"
+   ],
+   "similar_count": 33,
+   "category_count": 11,
+   "author_count": 28,
+   "likes_median": 585,
+   "slots": [
+    "次数",
+    "表现"
+   ],
+   "fit": "FUHGD",
+   "tone": "social"
+  },
+  {
+   "rank": 18,
+   "structure": "谁懂[对象/使用体验]的含金量",
+   "examples": [
+    "绿色or棕色🍃谁懂冬天穿毛绒绒睡衣的含金量",
+    "谁懂这条黑灰微喇的含金量啊啊啊啊！！！",
+    "真的巨好吃！谁懂这碗空心拌面的含金量！！"
+   ],
+   "similar_count": 33,
+   "category_count": 12,
+   "author_count": 33,
+   "likes_median": 429,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 19,
+   "structure": "以为[价格高/份量少/原先预期]，结果[实际价格/够用时长/意外反转]",
+   "examples": [
+    "以为很贵。。。。结果一箱才8r💰",
+    "以为30块不多，结果够吃两周轻食了...😁",
+    "本来以为很小众😅…结果来问的姐妹越来越多！"
+   ],
+   "similar_count": 29,
+   "category_count": 10,
+   "author_count": 28,
+   "likes_median": 516,
+   "slots": [
+    "原预期",
+    "实际反转"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 20,
+   "structure": "（凭一己之力/使用经历）带动[群体]买/入[数量]",
+   "examples": [
+    "凭一己之力带动全办公室买了18件😂。。。",
+    "很貌美，带动宿舍买了8件。。。",
+    "凭一己之力带动办公室入了7条什么概念…"
+   ],
+   "similar_count": 27,
+   "category_count": 12,
+   "author_count": 24,
+   "likes_median": 697,
+   "slots": [
+    "群体",
+    "数量"
+   ],
+   "fit": "FUHGD",
+   "tone": "social"
+  },
+  {
+   "rank": 21,
+   "structure": "（[换季/场景]）第一次穿[对象]，直接[极高认可]",
+   "examples": [
+    "第一次尝试绿色穿搭。。。进太庙吧！！！",
+    "第一次穿oldmoney………好权威啊",
+    "第一次穿衬衫，直接被惊艳到了！！！"
+   ],
+   "similar_count": 27,
+   "category_count": 8,
+   "author_count": 24,
+   "likes_median": 510,
+   "slots": [
+    "场景",
+    "对象",
+    "认可"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 22,
+   "structure": "[明确痛点/对象]（终于）有救了",
+   "examples": [
+    "30s搞定短发氛围感！细软塌终于有救了",
+    "浅色冲锋衣有救了！",
+    "手指粗短的姐妹有救了！这个真的能瘦手指！"
+   ],
+   "similar_count": 25,
+   "category_count": 11,
+   "author_count": 24,
+   "likes_median": 410,
+   "slots": [
+    "痛点"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 23,
+   "structure": "怎么会有这么[好评价]的[对象]",
+   "examples": [
+    "妈呀怎么会有这么好看的鞋！！！",
+    "天呐！怎么会有这么适合咋通勤上班的包包啊",
+    "怎么会有这么好穿又好玩的羽绒服🤖"
+   ],
+   "similar_count": 25,
+   "category_count": 13,
+   "author_count": 25,
+   "likes_median": 313,
+   "slots": [
+    "评价",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 24,
+   "structure": "（已听劝！）后悔没早[买/用/发现][对象/用途]",
+   "examples": [
+    "后悔没早买！这个500块不到的货架衣柜",
+    "后悔没早买❗️演唱会免安检增距镜支架❗️",
+    "后悔没早买！想向所有人安利它🥣"
+   ],
+   "similar_count": 25,
+   "category_count": 12,
+   "author_count": 22,
+   "likes_median": 206,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 25,
+   "structure": "我宣布，这（就）是[对象的极致评价/标准答案]",
+   "examples": [
+    "我宣布！这是今年最可爱的抱枕🍴🍽️",
+    "我宣布这是用过最丝滑的一支眼线刷！实况图",
+    "我宣布：这就是剖腹产增生疤痕的标准答案❗"
+   ],
+   "similar_count": 24,
+   "category_count": 13,
+   "author_count": 24,
+   "likes_median": 1327,
+   "slots": [
+    "评价"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 26,
+   "structure": "[对象]别乱买/选/吃，[依据或指导经验]",
+   "examples": [
+    "女大上课别乱买！能装平板+A4的粉书包在这！",
+    "新手选包别乱买！这个包我背了三年还想安利",
+    "别乱买！2.5\\3.5cm\\5cm 勃肯对比，看完再下单"
+   ],
+   "similar_count": 23,
+   "category_count": 13,
+   "author_count": 22,
+   "likes_median": 227,
+   "slots": [
+    "对象",
+    "依据"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 27,
+   "structure": "已经开始期待[季节/节点/体验]了（[具体对象]）",
+   "examples": [
+    "开始期待秋冬啦~",
+    "已经开始期待平安夜送朋友这颗仙仙的🍎✨",
+    "已经开始期待冬天了🐰"
+   ],
+   "similar_count": 22,
+   "category_count": 10,
+   "author_count": 22,
+   "likes_median": 739,
+   "slots": [
+    "季节",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 28,
+   "structure": "（[服饰]）把[意象/风格]穿在身上",
+   "examples": [
+    "山系冲锋衣｜把绿色的温柔穿在身上🍃",
+    "把糖炒栗子穿身上🌰",
+    "不止保暖！把玩偶穿身上的羽绒服✨"
+   ],
+   "similar_count": 22,
+   "category_count": 11,
+   "author_count": 22,
+   "likes_median": 298,
+   "slots": [
+    "载体",
+    "意象"
+   ],
+   "fit": "F",
+   "tone": "soft"
+  },
+  {
+   "rank": 29,
+   "structure": "和[家人]商量/讨论后，推出[面向需求的方案/规格]",
+   "examples": [
+    "和老爸商量后，推出减脂一人食免煮独立装",
+    "和爸妈商量，推出专为独居姐妹做的小包装！！",
+    "和父母商量后，推出9.9💰四拼，限量300份"
+   ],
+   "similar_count": 21,
+   "category_count": 8,
+   "author_count": 14,
+   "likes_median": 474,
+   "slots": [
+    "家人",
+    "规格"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 30,
+   "structure": "改了又改[次数]，终于做出[对象]",
+   "examples": [
+    "改了又改…才做出来这种奶呼呼的“絮蓝”",
+    "改了又改！终于做出来这种淡淡的蓝调色系！！",
+    "调整了四次才做出来这个雾感“炭麻灰”😭"
+   ],
+   "similar_count": 20,
+   "category_count": 9,
+   "author_count": 16,
+   "likes_median": 1129,
+   "slots": [
+    "次数",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 31,
+   "structure": "[对象]的权威/威力，我后知后觉",
+   "examples": [
+    "茶木褐的权威我后知后觉！！！！",
+    "雾感“絮蓝” 你的权威性我后知后觉！！！",
+    "快碳➕高蛋白的威力 我后知后觉"
+   ],
+   "similar_count": 20,
+   "category_count": 6,
+   "author_count": 16,
+   "likes_median": 735,
+   "slots": [
+    "卖点"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 32,
+   "structure": "建议[季节/月份]多吃（[对象由配图承接]），[好处/感受]",
+   "examples": [
+    "建议秋天多吃，太润啦！",
+    "建议秋冬多吃，太润了！",
+    "建议十月多吃 ，太润了💦"
+   ],
+   "similar_count": 20,
+   "category_count": 9,
+   "author_count": 20,
+   "likes_median": 575.5,
+   "slots": [
+    "季节",
+    "好处"
+   ],
+   "fit": "GH",
+   "tone": "soft"
+  },
+  {
+   "rank": 33,
+   "structure": "（[对象]）被（[人群]）问爆 / 被追着问了[次数]",
+   "examples": [
+    "被追着问了几十楼的美瞳果然有点东西...",
+    "🔥被10w人问爆的衣柜链接，来了！",
+    "免$试吃巧克力，被同事追着问了三天三夜！"
+   ],
+   "similar_count": 20,
+   "category_count": 11,
+   "author_count": 20,
+   "likes_median": 469,
+   "slots": [
+    "对象",
+    "人群",
+    "次数"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 34,
+   "structure": "误打误撞[买到/发现][惊喜对象]（[意外效果]）",
+   "examples": [
+    "误打误撞买了个洗发水。。。把油屑头洗没了😅",
+    "误打误撞买的。。。把枯草发洗没了",
+    "误打误撞发现对闭口巨牛的东西"
+   ],
+   "similar_count": 20,
+   "category_count": 7,
+   "author_count": 20,
+   "likes_median": 248,
+   "slots": [
+    "对象",
+    "意外效果"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 35,
+   "structure": "你抄袭的速度，永远赶不上[我的改版/上新]速度",
+   "examples": [
+    "你抄袭的速度永远跟不上姐更新的速度😤",
+    "你抄袭的速度，赶不上姐的改版速度！！🐰",
+    "你抄袭的速度...永远追不上姐的上新速度😎"
+   ],
+   "similar_count": 19,
+   "category_count": 12,
+   "author_count": 18,
+   "likes_median": 861,
+   "slots": [
+    "改版点"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 36,
+   "structure": "[具体对象/版本]已经next level了",
+   "examples": [
+    "兔兔拖🐰！！改版n次，已经nextlevel了",
+    "种子循环28天，美貌已达next level～",
+    "我的香蕉夹已经next level！仅9.9爆卖1万多"
+   ],
+   "similar_count": 19,
+   "category_count": 12,
+   "author_count": 18,
+   "likes_median": 662,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 37,
+   "structure": "请/希望大数据把我推给[需求人群]",
+   "examples": [
+    "新店福利1r四只小蛋糕！请大数据推给oc妈",
+    "请大数据推给问这件风衣连接的美女",
+    "请大数据推给所有重度痔疮的人！"
+   ],
+   "similar_count": 19,
+   "category_count": 10,
+   "author_count": 17,
+   "likes_median": 511,
+   "slots": [
+    "需求人群"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 38,
+   "structure": "一代人有一代人的[生活方式/要做的事]",
+   "examples": [
+    "😛😛一代人有一代人的鸡蛋🥚要领",
+    "果真是一代人有一代人的鸡蛋要领🥚🥚",
+    "一代人有一代人的一帆风顺😂"
+   ],
+   "similar_count": 19,
+   "category_count": 8,
+   "author_count": 14,
+   "likes_median": 334,
+   "slots": [
+    "生活方式"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 39,
+   "structure": "（[价格/场景]）希望它火，又不希望它太火",
+   "examples": [
+    "8r。。。希望它火。。。又不希望它太火。。。。。",
+    "9r💰一只！希望它火又怕它太火😂",
+    "2r！希望它火，但又怕它太火😨！"
+   ],
+   "similar_count": 18,
+   "category_count": 9,
+   "author_count": 18,
+   "likes_median": 979.5,
+   "slots": [
+    "价格"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 40,
+   "structure": "终于做出[对象]",
+   "examples": [
+    "终于做出这种不薄不厚的打底!!不显得臃肿~",
+    "终于做出了我想要的情侣电影感照片",
+    "踩雷之后的惊喜……终于做出这种版型古早毛衣"
+   ],
+   "similar_count": 16,
+   "category_count": 9,
+   "author_count": 11,
+   "likes_median": 1160,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 41,
+   "structure": "关于我做了[具体版本/对象]",
+   "examples": [
+    "《关于我做了“豪华版”-真丝颈枕…》",
+    "《关于我做了条洗澡能戴的纯银项链》",
+    "《关于我做了 “豪华版” 薄巧星星有线耳机…》"
+   ],
+   "similar_count": 15,
+   "category_count": 10,
+   "author_count": 12,
+   "likes_median": 1306,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 42,
+   "structure": "现在的[人群]对[金额/购买力]没概念",
+   "examples": [
+    "现在的年轻人对3块钱的东西太没概念",
+    "现在得年轻人对6块钱的购买力都没啥概念",
+    "现在的年轻人对7r的购买力没啥概念"
+   ],
+   "similar_count": 15,
+   "category_count": 10,
+   "author_count": 15,
+   "likes_median": 870,
+   "slots": [
+    "人群",
+    "金额"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 43,
+   "structure": "[对象/体验]的含金量还在上升",
+   "examples": [
+    "糖炒栗子色的含金量还在上升……",
+    "一周穿4次…..的含金量还在上升！！！😭",
+    "我宣布！这件衬衫的含金量还在上升！！"
+   ],
+   "similar_count": 15,
+   "category_count": 7,
+   "author_count": 15,
+   "likes_median": 371,
+   "slots": [
+    "卖点"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 44,
+   "structure": "（[诚意/经营铺垫]）这就是[我/我们]做不大的原因",
+   "examples": [
+    "这就是我做不大的原因吧...",
+    "这就是我们做不大的原因……",
+    "这就是我做不大的原因……"
+   ],
+   "similar_count": 14,
+   "category_count": 8,
+   "author_count": 13,
+   "likes_median": 1530,
+   "slots": [
+    "经营铺垫"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 45,
+   "structure": "（[具体对象]）即将/已经成为我[场景]常用TOP1",
+   "examples": [
+    "即将成为我初秋通勤常穿的topppp1！！",
+    "已预感即将成为我初秋早八常穿top1好显白!!",
+    "无疑会成为我秋冬常穿的top1️⃣"
+   ],
+   "similar_count": 14,
+   "category_count": 7,
+   "author_count": 10,
+   "likes_median": 651.5,
+   "slots": [
+    "对象",
+    "场景"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 46,
+   "structure": "倒卖[价格]，你真的[大胆/敢卖]",
+   "examples": [
+    "倒卖128...你的胆子真是肥嘟嘟😡😡",
+    "倒卖卖69，真敢啊😳。。。",
+    "倒卖卖100多，真敢啊。。。"
+   ],
+   "similar_count": 13,
+   "category_count": 14,
+   "author_count": 12,
+   "likes_median": 840,
+   "slots": [
+    "价格"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 47,
+   "structure": "应大家/你们的要求，[新规格/版本]上线了",
+   "examples": [
+    "应大家的要求……6r 小份装的上线啦！",
+    "应大家的要求…小份装的上线啦！！！",
+    "应大家的要求……广式腊肠小份量装上线啦！🥳"
+   ],
+   "similar_count": 13,
+   "category_count": 6,
+   "author_count": 13,
+   "likes_median": 780,
+   "slots": [
+    "新规格"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 48,
+   "structure": "建议[人群]都去/一定要[具体行动]",
+   "examples": [
+    "文职工作入职前，建议大家都去学Excel",
+    "强烈建议结婚一定要有这些喜糖上桌！",
+    "建议所有语文老师都带学生做微型训练"
+   ],
+   "similar_count": 13,
+   "category_count": 9,
+   "author_count": 13,
+   "likes_median": 599,
+   "slots": [
+    "人群",
+    "行动"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 49,
+   "structure": "[家人商议]后，决定[价格/规格]（[限量试卖]）",
+   "examples": [
+    "全家商议后一致同意6r一箱，388份试试",
+    "和老爸商量决定，就十几，200份试试了",
+    "全家商议后，决定6r多一袋即刻上架"
+   ],
+   "similar_count": 13,
+   "category_count": 9,
+   "author_count": 13,
+   "likes_median": 475,
+   "slots": [
+    "价格",
+    "限量"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 50,
+   "structure": "（[人群称呼]）放心，[即使火了]也不涨价",
+   "examples": [
+    "姐妹们放心！火了我们也不涨价！！！💗💗",
+    "🥺宝子们放心吧，无论多火我们都不会涨价的！",
+    "姐妹们放心的。。。火了一定不涨价😭😭"
+   ],
+   "similar_count": 12,
+   "category_count": 6,
+   "author_count": 11,
+   "likes_median": 1178,
+   "slots": [
+    "人群称呼"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 51,
+   "structure": "贵一点的[对象]，果然[品质/体验]不一样",
+   "examples": [
+    "vocal。。贵一点的睡衣质感果然不一样。。🧊",
+    "果然贵一点的裤子就是不一样。。。",
+    "贵一点的裤子果然质感不一样！！"
+   ],
+   "similar_count": 12,
+   "category_count": 4,
+   "author_count": 9,
+   "likes_median": 743,
+   "slots": [
+    "对象",
+    "体验"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 52,
+   "structure": "不是[高价选项]买不起，而是[替代选项]更有性价比",
+   "examples": [
+    "不是线下49买不起，而是线上13更具性价比😚",
+    "不是贵的买不起🔥，而是20➕💰更有性价比",
+    "不是特油买不起，而是亮膜更有性价比"
+   ],
+   "similar_count": 12,
+   "category_count": 9,
+   "author_count": 12,
+   "likes_median": 317.5,
+   "slots": [
+    "高价选项",
+    "替代选项"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 53,
+   "structure": "[性格镜像]：历史上早有人，靠与你相似的性格走过[人生/结局]",
+   "examples": [
+    "历史上早有人，靠类似你的性格走完一生✨",
+    "你的性格，历史里早有人靠它熬到上限～",
+    "你这种性格，历史之中早有人替你疯过了🤣"
+   ],
+   "similar_count": 11,
+   "category_count": 13,
+   "author_count": 5,
+   "likes_median": 3232,
+   "slots": [
+    "性格镜像"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 54,
+   "structure": "（做出[产品/版本]后）顾客祝我[夸张认可]",
+   "examples": [
+    "做出气血感腮红耳钉后，顾客祝我永远不si😂",
+    "做出新款波点后！顾客祝我永不倒闭…😂😂",
+    "做出金属收腰夹后，顾客祝我永远不死🥳…"
+   ],
+   "similar_count": 11,
+   "category_count": 9,
+   "author_count": 11,
+   "likes_median": 1717,
+   "slots": [
+    "对象",
+    "夸张认可"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 55,
+   "structure": "你们要的[具体产品/版本]，来了/安排上了",
+   "examples": [
+    "你们要的鸡牛双拼真空装，安排上了！！",
+    "\"你们要的低跟3㎝静音优等生来啦\"",
+    "东北的姐妹们！你们要的羊毛口罩做出来啦～"
+   ],
+   "similar_count": 11,
+   "category_count": 10,
+   "author_count": 11,
+   "likes_median": 731,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 56,
+   "structure": "[地区]文旅你快宣传，[特色/季节卖点]",
+   "examples": [
+    "甘肃文旅快宣传，这口土豆到巅峰了",
+    "山东文旅你快宣传啊！已经是口感巅峰期",
+    "云南文旅快宣传一下吧，已到口感巅峰期啦！"
+   ],
+   "similar_count": 11,
+   "category_count": 7,
+   "author_count": 11,
+   "likes_median": 605,
+   "slots": [
+    "地区",
+    "特色"
+   ],
+   "fit": "GH",
+   "tone": "hype"
+  },
+  {
+   "rank": 57,
+   "structure": "我妈：[方案1]；我爸：[方案2]；我：[回应]",
+   "examples": [
+    "我妈：6r一袋！我爸：6r一袋包邮！我：遵命",
+    "我妈：6r一箱！我爸：6r一箱包邮！我：好嘞",
+    "我妈：6r 一盒！我爸：6r 一盒包邮！我：好勒！"
+   ],
+   "similar_count": 11,
+   "category_count": 7,
+   "author_count": 10,
+   "likes_median": 351,
+   "slots": [
+    "方案1",
+    "方案2",
+    "回应"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 58,
+   "structure": "穿过[高品质对象]，就不想再换[替代品]",
+   "examples": [
+    "穿过细糠就不想换别的了……🥹",
+    "穿过A类纯棉细糠，就不想穿聚酯纤维塑料瓶了",
+    "穿过细糠细糠！就不会再穿聚酯纤维了。。"
+   ],
+   "similar_count": 11,
+   "category_count": 6,
+   "author_count": 9,
+   "likes_median": 320,
+   "slots": [
+    "高品质对象",
+    "替代品"
+   ],
+   "fit": "FUHGDE",
+   "tone": "soft"
+  },
+  {
+   "rank": 59,
+   "structure": "[想要的对象]被我找到了 / 终于被我找到了[对象]",
+   "examples": [
+    "啊啊啊！娜娜同款眼镜被我找到了❗️",
+    "✨早秋懒人穿搭密码被我找到了",
+    "“氛围感之神”赛级无框墨镜被我找到了！！"
+   ],
+   "similar_count": 11,
+   "category_count": 8,
+   "author_count": 11,
+   "likes_median": 260,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 60,
+   "structure": "Sorry[对标品牌]，[更合心意的替代方案/卖点]",
+   "examples": [
+    "sorry迪卡农！！青甘三件套无敌出片！！！😡",
+    "sorry迪卡农！新疆冲锋衣，我选哈密瓜三件！",
+    "sorry迪卡农！两百多三件，实在太出片了！！😭"
+   ],
+   "similar_count": 11,
+   "category_count": 8,
+   "author_count": 8,
+   "likes_median": 256,
+   "slots": [
+    "对标品牌",
+    "卖点"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 61,
+   "structure": "（只是）[偶然观察/上身动作]，就被惊艳到了",
+   "examples": [
+    "Vocal……一低头有被惊艳到！！！",
+    "只是偶尔瞥了一眼就被惊艳到了！！！",
+    "vocal……一抬头就被惊艳到了！！！"
+   ],
+   "similar_count": 10,
+   "category_count": 6,
+   "author_count": 8,
+   "likes_median": 812,
+   "slots": [
+    "动作"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 62,
+   "structure": "放弃[旧风格]，要大大方方[新风格]",
+   "examples": [
+    "早秋穿搭：放弃幼态.要大大方方的通勤穿搭",
+    "人生建议：拒绝幼态，要大大方方的通勤穿搭！",
+    "人生建议：放弃幼态，大大方方漂亮"
+   ],
+   "similar_count": 10,
+   "category_count": 4,
+   "author_count": 8,
+   "likes_median": 717.5,
+   "slots": [
+    "旧风格",
+    "新风格"
+   ],
+   "fit": "FU",
+   "tone": "soft"
+  },
+  {
+   "rank": 63,
+   "structure": "是谁还没[拥有/吃到/用上][对象]",
+   "examples": [
+    "是谁还没拥有蓝莓包🫐",
+    "是谁还没吃到小饼干",
+    "不是，谁还没拥有这个后置拍照投屏器啊？📷"
+   ],
+   "similar_count": 10,
+   "category_count": 8,
+   "author_count": 10,
+   "likes_median": 652.5,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 64,
+   "structure": "不愧是我[挑选/改版投入]的[对象]",
+   "examples": [
+    "不愧是我熬了一个通宵做出来的直筒微喇裤！！",
+    "啊啊！不愧是我熬夜选出来的生日礼物🎁❗",
+    "不愧是我改了4次才做出来的雾蓝！！太太美啦"
+   ],
+   "similar_count": 10,
+   "category_count": 9,
+   "author_count": 10,
+   "likes_median": 509.5,
+   "slots": [
+    "投入",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 65,
+   "structure": "（到底是）谁发明的[具体对象]（[赞叹/用途]）",
+   "examples": [
+    "到底是谁发明的这个笔。。😇",
+    "到底是谁发明的这种文件夹😜背书太爽了",
+    "🆙🆙……到底是谁发明的斜修搬家？？？？"
+   ],
+   "similar_count": 10,
+   "category_count": 8,
+   "author_count": 10,
+   "likes_median": 207.5,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 66,
+   "structure": "[原渠道/原价]没舍得买，转头[低价渠道/价格]拿下",
+   "examples": [
+    "水贝要价一万多劝退我🥹转头50➕💰直接拿下❗",
+    "线下49舍不得，小红书14全款拿下！🥰",
+    "景德镇70+没舍得，小红书10r+直接下单🙈"
+   ],
+   "similar_count": 9,
+   "category_count": 9,
+   "author_count": 9,
+   "likes_median": 922,
+   "slots": [
+    "原价",
+    "新价"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 67,
+   "structure": "不是[旧选项/印象]，而是[新选项/判断]",
+   "examples": [
+    "🥹不是你画画技术差，而是没有用对工具…",
+    "你不是不懂艺术，而是从未系统学过！",
+    "不是营销号说的百万tifany 而是我的原创👏"
+   ],
+   "similar_count": 9,
+   "category_count": 9,
+   "author_count": 9,
+   "likes_median": 701,
+   "slots": [
+    "旧认知",
+    "新认知"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 68,
+   "structure": "自家[产品/生产方式]，不想卖给二道贩子，[直供价]",
+   "examples": [
+    "自家种的不想卖给二道贩子了，6.8r一箱包油！",
+    "自家种的不想卖给二道贩子了，7💰一大箱",
+    "自家种的不想卖给二道贩子，10+一组包邮！"
+   ],
+   "similar_count": 9,
+   "category_count": 9,
+   "author_count": 9,
+   "likes_median": 531,
+   "slots": [
+    "直供价"
+   ],
+   "fit": "GH",
+   "tone": "price"
+  },
+  {
+   "rank": 69,
+   "structure": "答应我，一定要试试[具体对象/做法]",
+   "examples": [
+    "答应我！一定要试试这个鱼香肉丝！",
+    "答应我，一定要试试这个面条！！",
+    "答应我，一定要试试这个番茄意面🍝"
+   ],
+   "similar_count": 8,
+   "category_count": 4,
+   "author_count": 4,
+   "likes_median": 3530.5,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 70,
+   "structure": "[平台]一直[给福利]，我就一直领",
+   "examples": [
+    "小红书一直发，我就一直领😂😂😂",
+    "小红书只要一直给，我就一直领😂",
+    "小红书一直给 我就一直领～"
+   ],
+   "similar_count": 8,
+   "category_count": 7,
+   "author_count": 6,
+   "likes_median": 1054.5,
+   "slots": [
+    "平台"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 71,
+   "structure": "[对标品牌/渠道]你怕了吗？[价格或具体卖点]",
+   "examples": [
+    "（pxx你怕了吗）39r随手买的！！进太庙吧",
+    "（lulu你怕了吗）防滑死了踏马的！！才24💰",
+    "（pxx你怕了吗！！）才26r好穿死了......"
+   ],
+   "similar_count": 8,
+   "category_count": 4,
+   "author_count": 8,
+   "likes_median": 899.5,
+   "slots": [
+    "对标品牌",
+    "价格"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 72,
+   "structure": "才[实际价格]，却被误以为[昂贵档次/贵礼物]",
+   "examples": [
+    "才29r，却被误认是特别贵的礼物🎁🎁🎁",
+    "夯爆了！才148💰却被误以为很贵的礼物",
+    "才9r而已…却被误以为是很贵的礼物啊🥺"
+   ],
+   "similar_count": 8,
+   "category_count": 10,
+   "author_count": 8,
+   "likes_median": 769,
+   "slots": [
+    "价格",
+    "昂贵档次"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 73,
+   "structure": "忍痛买了[略贵的对象]（[买后评价]）",
+   "examples": [
+    "忍痛买了条微贵的………🍂🍂",
+    "忍痛买了件微贵的…🍂",
+    "忍痛买了套微贵的…好绝"
+   ],
+   "similar_count": 8,
+   "category_count": 9,
+   "author_count": 6,
+   "likes_median": 760.5,
+   "slots": [
+    "对象",
+    "评价"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 74,
+   "structure": "[身高/体重/身材]｜[上身/搭配的明确反馈]",
+   "examples": [
+    "165/117斤、冬天还得是羊毛裤扎实显瘦！",
+    "176 156斤｜不愧穿了两年 卖了两年的马蹄裤",
+    "167 116斤 ▪️一衣多穿 深灰斗蓬大衣"
+   ],
+   "similar_count": 8,
+   "category_count": 7,
+   "author_count": 5,
+   "likes_median": 700.5,
+   "slots": [
+    "身材数据",
+    "反馈"
+   ],
+   "fit": "F",
+   "tone": "pain"
+  },
+  {
+   "rank": 75,
+   "structure": "[降温等变化]，出门发现[人群]都[状态]",
+   "examples": [
+    "一降温 出门发现所有人都穿得人模人样🥺",
+    "一降温 出门发现所有人都穿得人模人样🥺",
+    "一降温，出门发现所有人都穿得人模人样🥹"
+   ],
+   "similar_count": 8,
+   "category_count": 5,
+   "author_count": 4,
+   "likes_median": 474.5,
+   "slots": [
+    "变化",
+    "人群状态"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 76,
+   "structure": "终于知道[对象/人群]为什么/为啥[现象]",
+   "examples": [
+    "终于知道为啥大家出门旅游都不摘墨镜了！！！",
+    "终于知道为啥一吃燕麦就瘦的快了。。。",
+    "终于知道王一博为什么代言它了。。"
+   ],
+   "similar_count": 8,
+   "category_count": 10,
+   "author_count": 7,
+   "likes_median": 394.5,
+   "slots": [
+    "现象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 77,
+   "structure": "哄[收礼对象]的小把戏，[轻松拿捏的表现]",
+   "examples": [
+    "💰80➕低成本浪漫……哄对象开心的小把戏get✅",
+    "哄男人的小把戏，姐顺手就做了",
+    "男票生日🎂……哄男人开心的小把戏信手拈来🤭"
+   ],
+   "similar_count": 8,
+   "category_count": 9,
+   "author_count": 7,
+   "likes_median": 371.5,
+   "slots": [
+    "收礼对象",
+    "表现"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 78,
+   "structure": "频繁[行动]的代价就是：[意外正面结果]",
+   "examples": [
+    "频繁吃紫薯的代价就是…..一周不升反降",
+    "频繁吃一周苹果的代价就是...越吃越xi！",
+    "频繁吃西红柿的代价就是…越来越细"
+   ],
+   "similar_count": 8,
+   "category_count": 6,
+   "author_count": 8,
+   "likes_median": 308,
+   "slots": [
+    "行动",
+    "正面结果"
+   ],
+   "fit": "GH",
+   "tone": "pain"
+  },
+  {
+   "rank": 79,
+   "structure": "（[价格/份量]）承包我[时长]的[日常需求]",
+   "examples": [
+    "区区79元，承包了我一星期的减脂餐✅",
+    "59远三斤的大虾，承包了我一个月的减脂餐！",
+    "承包我整个秋冬的打底衫！！！"
+   ],
+   "similar_count": 7,
+   "category_count": 5,
+   "author_count": 7,
+   "likes_median": 508,
+   "slots": [
+    "价格",
+    "时长"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 80,
+   "structure": "（[对象/场景]）用过/开始[体验]，就再也回不去了",
+   "examples": [
+    "一旦你开始开肩睡就回不去了…",
+    "我的厨房｜自从用过就再也回不去了……😮‍💨",
+    "我的厨房｜用过之后就再也回不去了……😮‍💨"
+   ],
+   "similar_count": 7,
+   "category_count": 5,
+   "author_count": 7,
+   "likes_median": 452,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 81,
+   "structure": "清完最后[批次]，想认真跟大家[告别]",
+   "examples": [
+    "清完最后这批货，想认真跟大家告个别",
+    "清完最后这批货，想认真的跟大家道个别😭",
+    "清完最后这批货，想认真跟大家告个别😭"
+   ],
+   "similar_count": 7,
+   "category_count": 11,
+   "author_count": 7,
+   "likes_median": 392,
+   "slots": [
+    "批次"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 82,
+   "structure": "除了/但凡不是倒霉蛋，都能[领取权益]",
+   "examples": [
+    "除了倒霉蛋，都能薅几包……",
+    "但凡不是倒霉蛋，都能薅几包…",
+    "除了倒霉蛋，都能个位数薅..."
+   ],
+   "similar_count": 7,
+   "category_count": 6,
+   "author_count": 7,
+   "likes_median": 260,
+   "slots": [
+    "权益"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 83,
+   "structure": "不要低估[金额]的购买力",
+   "examples": [
+    "不要低估7r的购买力！",
+    "不要低估了7块钱的购买力！！！",
+    "请不要低估 30r 的购买力，够吃小半个月了"
+   ],
+   "similar_count": 7,
+   "category_count": 8,
+   "author_count": 7,
+   "likes_median": 233,
+   "slots": [
+    "金额"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 84,
+   "structure": "（[说话者]）很少用[强烈评价]来形容[对象]",
+   "examples": [
+    "朋友：很少用震撼来形容一片洗头湿巾‼️",
+    "我很少用震撼来形容一个调料架！",
+    "健身教练：很少用震撼来形容一片洗头湿巾"
+   ],
+   "similar_count": 6,
+   "category_count": 7,
+   "author_count": 6,
+   "likes_median": 2233,
+   "slots": [
+    "说话者",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 85,
+   "structure": "我也不想买，可是[低价或超额配置]",
+   "examples": [
+    "我也不想买啊，可是它才39诶",
+    "我也不想买！可这个充电宝是2位数2W毫安！",
+    "我也不想买啊，可它92💰有221色还带豪华工具"
+   ],
+   "similar_count": 6,
+   "category_count": 5,
+   "author_count": 6,
+   "likes_median": 1247.5,
+   "slots": [
+    "低价或配置"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 86,
+   "structure": "[客户返图]，想给她[巨额稿费/奖金]",
+   "examples": [
+    "神仙客户返图：想给她打一笔巨额稿费🥹",
+    "客户返图做首图🫰🏻真想给她打一笔巨款💰",
+    "客户返图拍得真绝！🫣真想给她打天价稿费了"
+   ],
+   "similar_count": 6,
+   "category_count": 6,
+   "author_count": 5,
+   "likes_median": 903,
+   "slots": [
+    "客户返图"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 87,
+   "structure": "压根找不到这种[特征/款式的对象]",
+   "examples": [
+    "压根找不到这种雾粉色！！！",
+    "压根找不到这种肌理感衬衫～",
+    "压根找不到这种颜色版型！！！！！🥹"
+   ],
+   "similar_count": 6,
+   "category_count": 5,
+   "author_count": 5,
+   "likes_median": 379,
+   "slots": [
+    "特征"
+   ],
+   "fit": "FUHGDE",
+   "tone": "hype"
+  },
+  {
+   "rank": 88,
+   "structure": "只有[特定人群]才懂[对象/体验]的含金量",
+   "examples": [
+    "只有早八党才懂它的含金量…",
+    "只有自律人才懂94大卡的含金量",
+    "只有熬过夜奶的妈妈才懂这个摇奶器的含金量"
+   ],
+   "similar_count": 6,
+   "category_count": 6,
+   "author_count": 6,
+   "likes_median": 267,
+   "slots": [
+    "人群"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 89,
+   "structure": "这一刻（突然）get到[配色/风格/对象]",
+   "examples": [
+    "这一刻突然get到了清冷感穿搭。。",
+    "这一刻突然get到了“蓝栗配”💙🤎",
+    "这一刻突然get到了“黑粉配”🖤💗"
+   ],
+   "similar_count": 6,
+   "category_count": 3,
+   "author_count": 6,
+   "likes_median": 206.5,
+   "slots": [
+    "风格/配色"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 90,
+   "structure": "我的人生[对象]，[周期]穿/用[次数]",
+   "examples": [
+    "我的人生打底衫啊啊啊…一周穿三回😭",
+    "我的人生毛衣啊啊啊！一周穿3回的程度😭",
+    "我的人生百褶裙啊啊啊！ 一周穿三回🥹"
+   ],
+   "similar_count": 5,
+   "category_count": 5,
+   "author_count": 5,
+   "likes_median": 1977,
+   "slots": [
+    "对象",
+    "周期",
+    "次数"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 91,
+   "structure": "只需/只要[一个动作/小成本]，就能[明确结果]",
+   "examples": [
+    "这个仓鼠笼只要十几元就能入手！",
+    "只需要一组实木书柜，就能感受慢时光",
+    "只需0.2就能领取你的专属oc！居然还默断"
+   ],
+   "similar_count": 5,
+   "category_count": 5,
+   "author_count": 5,
+   "likes_median": 656,
+   "slots": [
+    "动作",
+    "结果"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 92,
+   "structure": "（[对象]）直接改名叫[功能绰号]得了",
+   "examples": [
+    "直接改名叫《手纹橡皮擦》得了吧！！",
+    "直接改名叫【乳胶漆橡皮擦】得了！",
+    "直接改名叫《阿迪麂皮黑印橡皮擦》吧❗️"
+   ],
+   "similar_count": 5,
+   "category_count": 7,
+   "author_count": 5,
+   "likes_median": 562,
+   "slots": [
+    "功能绰号"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 93,
+   "structure": "维权成功！[自家产品]仅在[唯一正版店铺]",
+   "examples": [
+    "维权成功‼️我家兔兔棉拖xhs仅这家店",
+    "维权成功⚠️我们仅在这一家店做正版无边",
+    "维权成功！！我们家只有一家正版原店哦🥹"
+   ],
+   "similar_count": 5,
+   "category_count": 4,
+   "author_count": 5,
+   "likes_median": 386,
+   "slots": [
+    "店铺"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 94,
+   "structure": "[推荐对象]，我不允许任何人忤逆你",
+   "examples": [
+    "神裤！！我不允许任何人忤逆你！！",
+    "爬山神裤！！我不允许任何人忤逆你！！",
+    "papi酱我不允许任何人忤逆你！！！"
+   ],
+   "similar_count": 5,
+   "category_count": 4,
+   "author_count": 5,
+   "likes_median": 355,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 95,
+   "structure": "人一旦[某习惯/行为]，这辈子就[变化]",
+   "examples": [
+    "人一旦染上开肩睡…这辈子就有了！😱",
+    "人一旦沾上pho，这辈子就和刘文祥说再见了",
+    "人一旦染上高光这辈子就算定型了"
+   ],
+   "similar_count": 5,
+   "category_count": 10,
+   "author_count": 5,
+   "likes_median": 338,
+   "slots": [
+    "习惯",
+    "变化"
+   ],
+   "fit": "GH",
+   "tone": "pain"
+  },
+  {
+   "rank": 96,
+   "structure": "当[原价]变成[新价]，你要吗",
+   "examples": [
+    "当 8.9r变成 0.9 你要吗",
+    "当9️⃣.9️⃣r变成0.lr，你要吗？？",
+    "当💰5.9变成0.1，你要吗？？"
+   ],
+   "similar_count": 5,
+   "category_count": 6,
+   "author_count": 4,
+   "likes_median": 284,
+   "slots": [
+    "原价",
+    "新价"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 97,
+   "structure": "[价格]任选[数量/规格]，还[额外权益]",
+   "examples": [
+    "润唇膏以前💰9.9，现在任选2支还打折‼️",
+    "新店入驻🥹！！28元任选8个碱水棒还顺丰包邮",
+    "新店破价😭！！28元任选8个碱水球还顺丰包邮"
+   ],
+   "similar_count": 4,
+   "category_count": 8,
+   "author_count": 4,
+   "likes_median": 5313.5,
+   "slots": [
+    "价格",
+    "规格",
+    "权益"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 98,
+   "structure": "谁收到[具体礼物]会不[强烈反应]",
+   "examples": [
+    "🎂拜托！谁收到这份生日礼物会不迷糊呀～",
+    "🎂拜托！谁收到这份生日礼物会不迷糊呀～",
+    "🎂拜托!谁收到这份生日礼物会不迷糊呀～"
+   ],
+   "similar_count": 4,
+   "category_count": 3,
+   "author_count": 3,
+   "likes_median": 5112.5,
+   "slots": [
+    "礼物"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 99,
+   "structure": "[年龄/年级]以后，请疯狂/狠抓[行动]（[期待的变化]）",
+   "examples": [
+    "一二年级不要心软，一定要狠抓阅读量",
+    "3岁以后请疯狂的画🖼️想象力真的要起飞。",
+    "6岁以后请疯狂玩破案！孩子智力真的会飙升！"
+   ],
+   "similar_count": 4,
+   "category_count": 8,
+   "author_count": 4,
+   "likes_median": 2070,
+   "slots": [
+    "年龄",
+    "行动"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 100,
+   "structure": "[家人]做了/烧了[大量产品]，我卖给谁啊",
+   "examples": [
+    "爷爷烧了几万件餐具…我卖给谁啊😭😭",
+    "爷爷做了几万斤话梅粒…我卖给谁啊😭😭",
+    "爷爷烧了几万件餐具…我卖给谁啊😭"
+   ],
+   "similar_count": 4,
+   "category_count": 7,
+   "author_count": 4,
+   "likes_median": 2007.5,
+   "slots": [
+    "家人",
+    "产品"
+   ],
+   "fit": "GH",
+   "tone": "story"
+  },
+  {
+   "rank": 101,
+   "structure": "这么[好评价]的[对象]，谁能不爱/拒绝",
+   "examples": [
+    "10r一箱📦！这么好看的餐具，谁不爱呀",
+    "这么可爱的小猫咪谁能不爱呢！",
+    "这么可爱的羊羊🐑谁能不爱呢"
+   ],
+   "similar_count": 4,
+   "category_count": 7,
+   "author_count": 4,
+   "likes_median": 1896,
+   "slots": [
+    "评价",
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  },
+  {
+   "rank": 102,
+   "structure": "这才是我想要的[理想对象]",
+   "examples": [
+    "这才是我想要的不对称耳扣！",
+    "这才是我想要的睫毛！！！",
+    "🤎这才是我想要的满天星发圈～秋日美拉德！"
+   ],
+   "similar_count": 4,
+   "category_count": 7,
+   "author_count": 4,
+   "likes_median": 1462.5,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 103,
+   "structure": "关于我买到[满足需求的对象]这件事",
+   "examples": [
+    "《关于我买到平价的降噪耳机这件事。。》",
+    "《关于我买到称心的绿衬衫这件事》",
+    "《关于我买到臀型很好的健身裤这件事！》"
+   ],
+   "similar_count": 4,
+   "category_count": 5,
+   "author_count": 4,
+   "likes_median": 1318,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 104,
+   "structure": "终于/原来有人发现不对劲，原来不止我[这样想]",
+   "examples": [
+    "终于有人发现不对劲了😭原来不止我这么想",
+    "原来有人发现不对劲了😭原来不止我这么想",
+    "终于有人发现不对劲了😭原来不止我这么想"
+   ],
+   "similar_count": 4,
+   "category_count": 7,
+   "author_count": 4,
+   "likes_median": 1197,
+   "slots": [
+    "想法"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 105,
+   "structure": "[对象/定位]有点小贵，但[值得的判断/理由]",
+   "examples": [
+    "old money神裤 有点小贵 但好值",
+    "oldmoney有点小贵 但很值",
+    "oldmoney有点小贵 但好值"
+   ],
+   "similar_count": 4,
+   "category_count": 5,
+   "author_count": 4,
+   "likes_median": 1057,
+   "slots": [
+    "对象",
+    "理由"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 106,
+   "structure": "[使用时长]了，每次[用/穿]都[感叹/惊喜]",
+   "examples": [
+    "一年多了。。。。每次穿都要感叹",
+    "两年多了。。。每次穿都要感叹几天！！！",
+    "一年多了….每次穿都感叹谁懂这💰的含金量！！"
+   ],
+   "similar_count": 4,
+   "category_count": 3,
+   "author_count": 3,
+   "likes_median": 994,
+   "slots": [
+    "使用时长"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 107,
+   "structure": "[具体痛点]的[人群]，都去用[方案]",
+   "examples": [
+    "孩子衣服洗不干净的姐妹👭都去给我用这个",
+    "浴室水垢刷不干净的姐妹👭都去给我用！",
+    "孩子衣服洗不干净的姐妹👭都去给我用这个‼️"
+   ],
+   "similar_count": 4,
+   "category_count": 2,
+   "author_count": 3,
+   "likes_median": 773,
+   "slots": [
+    "痛点",
+    "人群"
+   ],
+   "fit": "*",
+   "tone": "pain"
+  },
+  {
+   "rank": 108,
+   "structure": "[大量对比/筛选经历]，就这个[最好/不错]",
+   "examples": [
+    "一天看了上百篇简历，就这个是最好的👍",
+    "一天看了上百篇简历，就这个不错｜模板自取",
+    "一天看了上百份简历，就这个是超好的👍"
+   ],
+   "similar_count": 4,
+   "category_count": 6,
+   "author_count": 3,
+   "likes_median": 696.5,
+   "slots": [
+    "对比经历"
+   ],
+   "fit": "*",
+   "tone": "social"
+  },
+  {
+   "rank": 109,
+   "structure": "[家人]让我赶紧宣传，[产品]到口感巅峰期了",
+   "examples": [
+    "我爸让我赶紧宣传！口感巅峰期到啦",
+    "我妈让我赶紧宣传，口感已经来到了巅峰期",
+    "我爷让我赶紧宣传！口感巅峰期啦"
+   ],
+   "similar_count": 4,
+   "category_count": 5,
+   "author_count": 4,
+   "likes_median": 550.5,
+   "slots": [
+    "产品"
+   ],
+   "fit": "GH",
+   "tone": "story"
+  },
+  {
+   "rank": 110,
+   "structure": "又是[上一场景]直接穿去[下一场景]的一套",
+   "examples": [
+    "又是下班直接穿去爬坡的一套",
+    "又是下班直接穿去健身房的一套",
+    "又是下班直接穿去健身房爬坡的一套"
+   ],
+   "similar_count": 4,
+   "category_count": 5,
+   "author_count": 3,
+   "likes_median": 484.5,
+   "slots": [
+    "场景A",
+    "场景B"
+   ],
+   "fit": "FU",
+   "tone": "soft"
+  },
+  {
+   "rank": 111,
+   "structure": "趁着还没[太多人知道]，赶紧[领取/行动]",
+   "examples": [
+    "趁着还没很多人发现赶紧薅啊🤣！！！",
+    "趁着还没太多人知道赶紧领啊！！！",
+    "趁着还没太多人知道赶紧薅啊！！！！"
+   ],
+   "similar_count": 4,
+   "category_count": 3,
+   "author_count": 3,
+   "likes_median": 459.5,
+   "slots": [
+    "权益"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 112,
+   "structure": "[低价/份量]，竟然还[包邮/发顺丰]",
+   "examples": [
+    "3元一个沉甸甸。。。竟然还顺丰包邮🥹",
+    "3️⃣元一个沉甸甸。。。竟然还发顺丰包邮😭",
+    "3R一个沉甸甸的。。。竟然还顺丰包邮🥹"
+   ],
+   "similar_count": 4,
+   "category_count": 9,
+   "author_count": 3,
+   "likes_median": 434,
+   "slots": [
+    "低价",
+    "额外权益"
+   ],
+   "fit": "*",
+   "tone": "price"
+  },
+  {
+   "rank": 113,
+   "structure": "真的没有办法不喜欢[对象]",
+   "examples": [
+    "真的没有办法不喜欢这件彩点针织",
+    "真的没有办法不喜欢毛毛马甲➕毛衣套装",
+    "真的没有办法不喜欢皮草～"
+   ],
+   "similar_count": 4,
+   "category_count": 4,
+   "author_count": 4,
+   "likes_median": 419,
+   "slots": [
+    "对象"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 114,
+   "structure": "看起来[普通状态]，上身/实际[惊喜表现]",
+   "examples": [
+    "看起来平平无奇 上身版型好牛!!!",
+    "“灰褐褐”看起来旧旧的…上身却意外很清冷",
+    "看起来平平无奇 上身版型好牛！！！"
+   ],
+   "similar_count": 4,
+   "category_count": 2,
+   "author_count": 4,
+   "likes_median": 417.5,
+   "slots": [
+    "普通状态",
+    "惊喜表现"
+   ],
+   "fit": "*",
+   "tone": "soft"
+  },
+  {
+   "rank": 115,
+   "structure": "我（真）做出来了，结果真的爆了（[产品由配图承接]）",
+   "examples": [
+    "我真的做出来了…结果真的爆了啊啊啊啊🥺",
+    "我真做出来了…结果真的爆了啊啊啊啊！！😭",
+    "我真做出来了！结果真的爆了啊啊啊啊！！😖"
+   ],
+   "similar_count": 4,
+   "category_count": 3,
+   "author_count": 3,
+   "likes_median": 253,
+   "slots": [
+    "产品"
+   ],
+   "fit": "*",
+   "tone": "story"
+  },
+  {
+   "rank": 116,
+   "structure": "啥原理？（[做法/对象]）比[对照选项]还[给力表现]",
+   "examples": [
+    "啥原理，比爬楼梯还给力😳！",
+    "啥原理，比爬楼梯还给🐮",
+    "啥原理，比爬楼梯还给力😳"
+   ],
+   "similar_count": 4,
+   "category_count": 10,
+   "author_count": 4,
+   "likes_median": 171,
+   "slots": [
+    "对照选项",
+    "表现"
+   ],
+   "fit": "*",
+   "tone": "hype"
+  }
+ ]
+}
